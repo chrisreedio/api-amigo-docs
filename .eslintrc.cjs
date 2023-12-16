@@ -4,7 +4,8 @@ module.exports = {
   rules: {
     // Global
     semi: ['error', 'never'],
-    quotes: ['error', 'single'],
+    // quotes: ['error', 'single'],
+    quotes: [2, 'single', { avoidEscape: true }],
     'quote-props': ['error', 'as-needed'],
     // Vue
     'vue/multi-word-component-names': 0,
