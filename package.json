@@ -23,6 +23,7 @@
     "nuxt-og-image": "^2.2.4"
   },
   "devDependencies": {
+    "@iconify-json/fa6-solid": "^1.1.20",
     "@nuxt/devtools": "1.0.6",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxthq/studio": "^1.0.5",
